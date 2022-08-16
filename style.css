@@ -4,15 +4,35 @@
 }
 
 html {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  z-index: 999;
+.header-1 {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.header-1 h2 {
+  line-height: 1.5em;
+}
+
+.header-1 p {
+  line-height: 2em;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.header-1 .button-start {
+  width: 100%;
+  padding: 15px;
+  background-color: darkgray;
+  color: white;
+}
+
+.header-2 {
 }
 
 .banner-image {
@@ -21,10 +41,6 @@ body {
 .menubar {
   display: flex;
   justify-content: space-evenly;
-}
-@media all and (min-width: 600px) {
-  .header {
-  }
 }
 
 .header li {
