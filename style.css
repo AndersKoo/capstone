@@ -14,6 +14,7 @@ body {
 .header-1 {
   text-align: center;
   background-color: lightgray;
+  padding: 2rem 2rem 2rem;
 }
 
 .header-1 h2 {
@@ -25,14 +26,35 @@ body {
   padding: 1.5rem 0 1.5rem 0;
 }
 
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .header-1 .button-start {
   width: 100%;
-  padding: 15px;
+  padding: 15px 3rem;
   background-color: darkgray;
   color: white;
+  border: none;
 }
 
 .header-2 {
+  position: relative;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.header-2 h2 p {
+  padding: 0 1rem 0 1rem;
+}
+
+/* .header-2 img {
+  padding-bottom: 4rem;
+} */
+.information-orientation {
+  width: 100%;
+  padding: 1rem 0 1rem 0;
 }
 
 .banner-image {
@@ -41,6 +63,13 @@ body {
 .menubar {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  height: 4rem;
+}
+
+.icons {
+  width: 32px;
+  height: 32px;
 }
 
 .header li {
@@ -64,7 +93,21 @@ body {
 .header right-sidebar {
 }
 
-.middle container-grid {
+.middle h1 {
+  padding: 2rem 0 1rem 1rem;
+  text-align: center;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 6;
+  padding: 0 1rem 0 1rem;
+}
+
+.container-grid .row {
+  padding: 1rem 1rem 1.5rem;
+  background-color: lightgray;
+  margin: 0 0 0.5rem 0;
 }
 
 .bottom {
