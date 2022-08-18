@@ -258,11 +258,84 @@ body {
     grid-column-end: 4;
     background-color: orange;
   }
-  /*   .container-grid .row {
-    padding: 1rem 1rem 1.5rem;
-    background-color: transparent;
-    margin: 0 0 0.5rem 0;
-  } */
+}
+
+@media all and (min-width: 1350px) {
+  .middle {
+    border: 2px solid blue;
+    background-color: lightgray;
+  }
+
+  .row {
+    border: 4px solid red;
+    padding-top: 2rem;
+  }
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.063rem;
+    row-gap: 1.063rem;
+  }
+  .start-learning-img {
+    width: 100%;
+
+    background-image: url('./assets/img/course-software.jpg');
+    height: 350px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .start-learning-img-2 {
+    width: 100%;
+    /*     border: 4px solid red; */
+    background-image: url('./assets/img/course-computer-art.jpg');
+    height: 350px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .start-learning-img-3 {
+    width: 100%;
+    /*     border: 4px solid red; */
+    background-image: url('./assets/img/course-design.jpg');
+    height: 350px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .start-learning-img-4 {
+    width: 100%;
+    /*     border: 4px solid red; */
+    background-image: url('./assets/img/course-data.jpg');
+    height: 350px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .start-learning-img-5 {
+    width: 100%;
+    /*     border: 4px solid red; */
+    background-image: url('./assets/img/course-business.jpg');
+    height: 350px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .start-learning-img-6 {
+    width: 100%;
+    /*     border: 4px solid red; */
+    background-image: url('./assets/img/course-marketing.jpg');
+    height: 350px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .container-grid .row {
