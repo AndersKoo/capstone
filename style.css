@@ -223,13 +223,26 @@ body {
   padding: 0 1rem 0 1rem;
 }
 
-@media all and (min-width: 600px) {
+.main-news-mobile {
+}
+
+@media all and (max-width: 1350px) {
+  #news {
+    display: none;
+  }
+}
+@media all and (min-width: 1350px) {
+  .main-news-mobile {
+    display: none;
+  }
   .header-2-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 800px 200px;
+    grid-template-rows: repeat(3, 200px);
+    justify-content: center;
   }
   .main-news {
+    position: relative;
     grid-row-start: 1;
     grid-row-end: 4;
     background-color: green;
