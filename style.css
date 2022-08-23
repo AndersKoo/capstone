@@ -13,6 +13,10 @@ body {
 }
 
 @media all and (min-width: 600px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .header-1 {
     display: flex;
     align-items: center;
@@ -23,6 +27,7 @@ body {
   .header-1-info-container {
     width: 100%;
     padding: 0 3em;
+    text-align: left;
   }
 
   .header-1-info {
@@ -146,6 +151,9 @@ body {
 }
 
 @media all and (max-width: 600px) {
+  .article-image {
+    display: none;
+  }
   .logo {
     display: none;
   }
@@ -216,11 +224,6 @@ body {
 @media all and (max-width: 1100px) {
   #news {
     display: none;
-  }
-
-  .home {
-    display: grid;
-    grid-template-columns: 1fr;
   }
 
   .list .image {
