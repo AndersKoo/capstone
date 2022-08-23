@@ -23,7 +23,6 @@ body {
   .header-1-info-container {
     width: 100%;
     padding: 0 3em;
-    /*  text-align: left; */
   }
 
   .header-1-info {
@@ -77,7 +76,6 @@ body {
 .information-orientation {
   position: relative;
   height: 500px;
-  /*   background-image: url('./assets/img/information-orientation-mobile.jpg'); */
   object-fit: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +84,6 @@ body {
 .information-orientation-2 {
   position: relative;
   height: 500px;
-  /*   background-image: url('./assets/img/information-orientation.jpg'); */
   content: 'image';
   object-fit: contain;
   background-position: center;
@@ -97,7 +94,6 @@ body {
 .information-orientation-3 {
   position: relative;
   height: 500px;
-  /*   background-image: url('./assets/img/information-orientation.jpg'); */
   content: 'image';
   object-fit: contain;
   background-position: center;
@@ -108,8 +104,6 @@ body {
   .information-orientation {
     position: relative;
     height: 500px;
-    /*     border: 4px solid red; */
-    /*    background-image: url('./assets/img/information-orientation.jpg'); */
     content: 'image';
     object-fit: contain;
     background-position: center;
@@ -119,8 +113,6 @@ body {
   .information-orientation-2 {
     position: relative;
     height: 500px;
-    /*  border: 4px solid red; */
-    /*     background-image: url('./assets/img/information-guest-lecture.jpg'); */
     content: 'image';
     object-fit: contain;
     background-position: center;
@@ -131,7 +123,6 @@ body {
     position: relative;
     height: 500px;
     border: 4px solid red;
-    /*     background-image: url('./assets/img/information-guest-lecture.jpg'); */
     content: 'image';
     object-fit: contain;
     background-position: center;
@@ -227,27 +218,29 @@ body {
     display: none;
   }
 
-  /*   .news {
+  .home {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 40px;
-  } */
+    grid-template-columns: 1fr;
+  }
+
+  .list .image {
+    width: 100%;
+  }
 }
 @media all and (min-width: 1100px) {
   .home {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
-    /*     border: 2px solid blue; */
   }
-  .container {
-    margin-top: -4em;
+  .main {
+    padding: 2rem 2rem 2rem;
   }
 
   .list {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 0fr 1fr;
     align-items: center;
     column-gap: 20px;
   }
@@ -257,14 +250,12 @@ body {
   }
 
   .list .image {
-    /*     width: 217px; */
     object-fit: contain;
     margin-top: 6px;
-    width: 216px;
+    width: 135px;
   }
   .article-image {
     width: 100%;
-    /*     max-width: 1000px; */
   }
 
   .article-image-right {
@@ -284,7 +275,7 @@ body {
   .main-news-mobile {
     display: none;
   }
-  /*   .header-2-grid {
+  /* .header-2-grid {
     display: grid;
     grid-template-columns: 800px 400px;
     grid-template-rows: repeat(4, 200px);
@@ -315,15 +306,13 @@ body {
 
 @media all and (min-width: 1100px) {
   .middle {
-    border: 2px solid blue;
+    /*   border: 2px solid blue; */
     background-color: lightgray;
   }
 
   .row {
-    /*  border: 4px solid red; */
     padding-top: 2rem;
     background-color: white;
-    /*  padding-left: 4.5rem; */
   }
 
   .row .title {
@@ -332,13 +321,13 @@ body {
   }
 
   .row .type {
-    color: lightgray;
+    color: black;
     padding: 10px 0 10px 0;
     font-weight: bold;
   }
 
   .row .description {
-    color: lightgray;
+    color: black;
   }
 
   .container-grid {
@@ -351,7 +340,6 @@ body {
   .start-learning-img {
     width: 100%;
     background-image: url('./assets/img/course-computer-art.jpg');
-
     height: 200px;
     object-fit: contain;
     background-position: center;
@@ -360,9 +348,7 @@ body {
   }
   .start-learning-img-2 {
     width: 100%;
-    /*     border: 4px solid red; */
     background-image: url('./assets/img/course-software.jpg');
-
     height: 200px;
     object-fit: contain;
     background-position: center;
@@ -371,8 +357,6 @@ body {
   }
   .start-learning-img-3 {
     width: 100%;
-    /*     border: 4px solid red; */
-
     background-image: url('./assets/img/course-design.jpg');
     height: 200px;
     object-fit: contain;
@@ -382,7 +366,6 @@ body {
   }
   .start-learning-img-4 {
     width: 100%;
-    /*     border: 4px solid red; */
     background-image: url('./assets/img/course-data.jpg');
     height: 200px;
     object-fit: contain;
@@ -392,7 +375,6 @@ body {
   }
   .start-learning-img-5 {
     width: 100%;
-    /*     border: 4px solid red; */
     background-image: url('./assets/img/course-business.jpg');
     height: 200px;
     object-fit: contain;
@@ -402,7 +384,6 @@ body {
   }
   .start-learning-img-6 {
     width: 100%;
-    /*     border: 4px solid red; */
     background-image: url('./assets/img/course-marketing.jpg');
     height: 200px;
     object-fit: contain;
@@ -418,7 +399,7 @@ body {
 
 .container-grid .row {
   padding: 0 0 1.5rem;
-  background-color: darkgrey;
+  background-color: white;
   margin: 0 0 0.5rem 0;
 }
 
