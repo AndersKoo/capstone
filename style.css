@@ -12,7 +12,7 @@ html {
 body {
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 1100px) {
   .home {
     display: grid;
     grid-template-columns: 1fr;
@@ -32,6 +32,7 @@ body {
 
   .header-1-info {
     width: 100%;
+    max-width: 500px;
   }
   .button-start {
     background-color: darkgray;
@@ -65,9 +66,6 @@ body {
   background-color: darkgray;
   color: white;
   border: none;
-}
-
-@media all and (min-width: 600px) {
 }
 
 .header-2 {
@@ -151,6 +149,9 @@ body {
 }
 
 @media all and (max-width: 1100px) {
+  .list {
+    padding-bottom: 2rem;
+  }
   .left {
     display: none;
   }
@@ -168,8 +169,7 @@ body {
   }
 
   .container-grid .row {
-    padding: 0 0 1.5rem;
-    background-color: gray;
+    background-color: #d0cece;
     margin: 0 0 0.5rem 0;
   }
 }
@@ -246,6 +246,15 @@ body {
 }
 
 @media all and (max-width: 1100px) {
+  .list-text p {
+    padding: 10px 0 10px;
+  }
+  .all-info {
+    padding: 1rem 0 1rem 1rem;
+  }
+  .typedescription {
+    display: none;
+  }
   #news {
     display: none;
   }
