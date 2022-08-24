@@ -21,14 +21,16 @@ body {
     display: flex;
     align-items: center;
   }
-  .banner-image-container {
-    padding-right: 1.5rem;
-  }
+
   .header-1-info-container {
-    width: 100%;
-    padding: 0 3em;
+    width: 40%;
+    /*     padding: 0 0 0 3em; */
     text-align: center;
   }
+
+  /*   .lists-two {
+    display: none;
+  } */
 
   .header-1-info {
     width: 100%;
@@ -139,7 +141,8 @@ body {
 }
 
 .banner-image {
-  width: 100%;
+  width: 60%;
+  padding-right: 1.5rem;
 }
 .menubar {
   display: flex;
@@ -152,7 +155,7 @@ body {
   .list {
     padding-bottom: 2rem;
   }
-  .left {
+  .right {
     display: none;
   }
   .image-desktop {
@@ -456,6 +459,7 @@ body {
 
 .bottom h1 {
   text-align: center;
+  padding-top: 2rem;
 }
 
 .bottom main-content {
